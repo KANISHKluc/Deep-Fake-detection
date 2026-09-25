@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Model checkpoints (large binary files — exclude from git)
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Dataset images (usually too large for git — add your own)
+data/real/*
+data/fake/*
+# Keep the folder structure
+!data/real/.gitkeep
+!data/fake/.gitkeep
+
+# Outputs (generated files — not needed in repo)
+outputs/*.png
+outputs/*.txt
+outputs/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Gradio cache
+gradio_cached_examples/
+flagged/
