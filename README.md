@@ -12,7 +12,7 @@ Built as a college mini-project demo. Runs fully on CPU (GPU auto-detected if av
 
 > Upload a face image and get an instant prediction with a heatmap explanation.
 
-![Web UI Screenshot](docs/ui_screenshot.png)
+![Web UI Screenshot](docs/Screenshot 2026-09-25 181053.png")
 
 > ⚠️ To add your own screenshot: run `python app.py`, take a screenshot of the browser,
 > save it as `docs/ui_screenshot.png` in the project folder.
