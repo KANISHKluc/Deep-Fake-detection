@@ -86,13 +86,6 @@ cd deepfake-detection
 pip install -r requirements.txt
 ```
 
-**For GPU support (NVIDIA):** Install the CUDA-enabled PyTorch first:
-```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-pip install -r requirements.txt
-```
-Check your CUDA version with `nvidia-smi` (top-right corner of the output).
-
 ---
 
 ### Step 3 — Add your images
