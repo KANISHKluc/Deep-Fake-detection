@@ -12,10 +12,8 @@ Built as a college mini-project demo. Runs fully on CPU (GPU auto-detected if av
 
 > Upload a face image and get an instant prediction with a heatmap explanation.
 
-![Web UI Screenshot](docs/ui_screenshot.png)
+![image alt](https://github.com/KANISHKluc/Deep-Fake-detection/blob/a733e74cb716a70029ed10bfc27940ec7ebc24f6/docs/Screenshot%202026-09-25%20181053.png)
 
-> ⚠️ To add your own screenshot: run `python app.py`, take a screenshot of the browser,
-> save it as `docs/ui_screenshot.png` in the project folder.
 
 ---
 
@@ -87,13 +85,6 @@ cd deepfake-detection
 ```bash
 pip install -r requirements.txt
 ```
-
-**For GPU support (NVIDIA):** Install the CUDA-enabled PyTorch first:
-```bash
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
-pip install -r requirements.txt
-```
-Check your CUDA version with `nvidia-smi` (top-right corner of the output).
 
 ---
 
