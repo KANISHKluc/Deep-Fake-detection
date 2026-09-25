@@ -12,7 +12,7 @@ Built as a college mini-project demo. Runs fully on CPU (GPU auto-detected if av
 
 > Upload a face image and get an instant prediction with a heatmap explanation.
 
-![image alt]()
+![image alt](https://github.com/KANISHKluc/Deep-Fake-detection/blob/a733e74cb716a70029ed10bfc27940ec7ebc24f6/docs/Screenshot%202026-09-25%20181053.png)
 
 
 ---
